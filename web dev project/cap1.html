@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery - Capstone</title>
+    <link rel="stylesheet" href="cap1.css">
+</head>
+<body>
+    <header class="header">
+        <img src="/food banner.jpg" alt="Food Banner" class="header-img">
+        <h1>Snack Verse</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Your Favorite Meals Delivered Fresh</h2>
+        <p>Explore tasty dishes and friendly restaurants near you!</p>
+        <input type="text" placeholder="Search dishes..." class="search-box">
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="categories">
+            <button>All</button>
+            <button>Indian</button>
+            <button>Drinks</button>
+            <button>Desserts</button>
+            <button>Fast Food</button>
+        </div>
+
+        <div class="menu-grid">
+            <div class="card">
+                <img src="/pastery.jpg" alt="Pastery">
+                <h3>Pastery</h3>
+                <p>$12.99</p>
+            </div>
+            <div class="card">
+                <img src="/manchurian.jpg" alt="Manchurian">
+                <h3>Manchurian</h3>
+                <p>$8.49</p>
+            </div>
+            <div class="card">
+                <img src="/chole bhature.jpg" alt="Chole Bhature">
+                <h3>Chole Bhature</h3>
+                <p>$18.99</p>
+            </div>
+            <div class="card">
+                <img src="/cookies.jpg" alt="Cookies">
+                <h3>Cookies</h3>
+                <p>$4.99</p>
+            </div>
+            <div class="card">
+                <img src="/paneer-tikka-jpg.webp" alt="Paneer Tikka">
+                <h3>Paneer Tikka</h3>
+                <p>$10.49</p>
+            </div>
+            <div class="card">
+                <img src="/cold coffe.jpg" alt="Cold Coffee">
+                <h3>Cold Coffee</h3>
+                <p>$3.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="restaurants" class="restaurant-section">
+        <h2>Popular Restaurants</h2>
+        <div class="restaurant-grid">
+            <div class="restaurant-card">
+                <img src="/pizza galleria.jpg" alt="Pizza Galleria">
+                <h3>Pizza Galleria</h3>
+                <p>Approx time: 20 min</p>
+            </div>
+            <div class="restaurant-card">
+                <img src="/pops one .jpg" alt="Pops One">
+                <h3>Pops One</h3>
+                <p>Approx time: 15 min</p>
+            </div>
+            <div class="restaurant-card">
+                <img src="/prem bhog.jpg" alt="Prem Bhog">
+                <h3>Prem Bhog</h3>
+                <p>Approx time: 25 min</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="order" class="order-section">
+        <h2>Place Your Order</h2>
+        <form class="order-form">
+            <label>Name:</label>
+            <input type="text" required>
+
+            <label>Your Dish:</label>
+            <input type="text" required>
+
+            <label>Address:</label>
+            <input type="text" required>
+
+            <button type="submit">Order Now</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Snack Verse - All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
